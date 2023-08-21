@@ -1,5 +1,5 @@
 % To run the script download example files from 
-% https://terabox.com/s/1UQiR3WpSUs7Yjp80Pu-n1A
+% https://lu.app.box.com/folder/222563865593?s=9zd90x2rd2krexwayhhe7zc0c9mnxjau
 % there you can find ten simulation results from a Vienna scenario for V2V communication
 
 clear
@@ -37,7 +37,7 @@ LB_avg_sound = LB_t_sound*LB_M_sound;            % reverse if Dop_sound
 % sounding tau_sound and Dop_sound parameters since the speeds are the same
 %!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-%% Read measurements data: example data can be found in https://terabox.com/s/1UQiR3WpSUs7Yjp80Pu-n1A
+%% Read measurements data: example data can be found in https://lu.app.box.com/folder/222563865593?s=9zd90x2rd2krexwayhhe7zc0c9mnxjau
 % It is better to save different formats of files in the .mat format
 filesFolder = 'ViennaScenarioUnitySimulationResults/'; % choose your own folder
 
